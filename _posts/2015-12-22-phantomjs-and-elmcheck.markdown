@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Running Elm Check with phantomjs
-date:   2015-12-22 10:50:00
-categories: integration erlang build
+date:   2015-12-21 10:50:00
+categories: testing phantomjs elm-check
 ---
 
 I am a big fan of quickcheck, and have been for some years, it is
@@ -195,5 +195,6 @@ test:
 
 phantom: test
 	phantomjs phantomjs/run-elm-check.js test.html
+
 
 {% endhighlight %}

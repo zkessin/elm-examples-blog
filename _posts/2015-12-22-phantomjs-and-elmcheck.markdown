@@ -14,7 +14,7 @@ bit weird and not up to date, so here is a basic example on how to
 build and run a property in elm-check and how to use phantom js to do
 so.
 
-{% highlight elm %}
+{% highlight haskell %}
 module WizardTest where
 
 import Graphics.Element exposing (tag)

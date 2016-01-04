@@ -9,8 +9,18 @@ One thing I miss in Elm is some of the tools from Erlang, the Elm Type
 checker is amazing, but there are some other things that would be
 great. I have gotten used to using
 [Wrangler](http://www.cs.kent.ac.uk/projects/wrangler/Wrangler/Home.html)
-whihc lets me do all sots of of cool things like mark a chunk of code
+which lets me do all sots of of cool things like mark a chunk of code
 and move it to a new function or move a function to a different
 module, and update all the refrences.
 
-SOmething like wrangler for elm would be great.
+Something like wrangler for elm would be great.
+
+Types of Refactorings I would like to see
+
+* Move function to different module
+* Create new function from block of code
+* Find repeated code
+* Find code smells
+
+
+Add other ideas to the comments

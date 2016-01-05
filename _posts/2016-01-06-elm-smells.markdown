@@ -5,7 +5,9 @@ date:   2016-01-05 14:50:00
 categories: smells
 ---
 
-Every language has smells, it would help if as elm is developed we talk about possible code smells in Elm.
+Every language has smells, it would help if as elm is developed we
+talk about possible code smells in Elm. Even better would be if there
+was a `--smells` flag to the compiler that could flag them
 
 
 One possible smell is the wild card match in a case like this one

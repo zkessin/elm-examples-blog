@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Understanding Signal.
+title:  Understanding Signal.forwardTo
 date:   2016-01-07 14:50:00
 categories: examples
 ---

@@ -8,8 +8,8 @@ categories: examples
 
 If you try to parse a JSON in elm you may run into a strange type
 issue, the function `Json.Decode.objectN` will return
-[`Result.Result`](http://package.elm-lang.org/packages/elm-lang/core/3.0.0/Result)
-String Type and not the type you thought you probably were going to
+[`Result.Result String Type`](http://package.elm-lang.org/packages/elm-lang/core/3.0.0/Result)
+ and not the type you thought you probably were going to
 get. What is going on here is that decoding a JSON is an action that
 can fail, so having decode just return your type is wrong, because it may return an error.
 
